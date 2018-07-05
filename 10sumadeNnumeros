@@ -1,0 +1,12 @@
+#!/bin/bash
+#suma de n numeros
+read -p "digite n numero " n
+suma=0
+for((i=1;i<=n;i++))
+do
+read -p "numero " x
+suma=$((suma + x))
+done
+
+echo "la suma es : " $suma
+

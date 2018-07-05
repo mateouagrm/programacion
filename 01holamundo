@@ -1,0 +1,4 @@
+#!/bin/bash
+#nuestro primer programa
+
+echo "hola mundo"

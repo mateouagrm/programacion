@@ -1,0 +1,14 @@
+#!/bin/bash
+#potencia
+
+read -p "introducir base: " x
+read -p "introducir exponente: " y
+i=1
+p=1
+while [ $i -le $y ]
+do
+p=$((p * x))
+i=$((i + 1))
+done
+
+echo "la potencia es:" $p

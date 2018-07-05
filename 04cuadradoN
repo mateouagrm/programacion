@@ -1,0 +1,6 @@
+#!/bin/bash
+#cuadrado de un numero 
+echo "escriba un digito"
+read n
+x=$((n * n))
+echo "el cuadrado de $n es : $x"

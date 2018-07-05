@@ -1,0 +1,13 @@
+#!/bin/bash
+#funcion suma
+
+function suma(){
+local r
+r=$(($1 + $2))
+return $r
+}
+
+read -p "digite dos digitos " a b
+suma $a $b
+
+echo "la respuesta es: " $?

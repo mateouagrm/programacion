@@ -1,0 +1,10 @@
+#!/bin/bash
+#es un ejemplo sobre variables
+
+n=5
+nombre="cesar fuentes"
+sw=true
+
+echo "el valor del numero es : $n"
+echo "el nombre del usuario es : $nombre"
+echo "booleana : $sw"

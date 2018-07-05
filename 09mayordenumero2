@@ -1,0 +1,20 @@
+#!/bin/bash
+#mayor de numero
+#ej: 45563473 mayor: 7
+
+read -p "digite un numero " n
+
+may=0
+
+while [ $n -gt 0 ]
+do
+r=$(($n % 10))
+if [ $r -gt $may ]
+then
+may=$r
+fi
+n=$(($n / 10))
+done
+
+
+echo "el mayor es" $may

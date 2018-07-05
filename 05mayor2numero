@@ -1,0 +1,13 @@
+#!/bin/bash
+#mayor de 2 numero
+echo "escriba el 1er digito:"
+read x
+echo "escriba el 2do digito"
+read y
+
+if [ $x -gt $y ]
+then 
+echo "el mayor es : $x" 
+else 
+echo "el mayor es : $y" 
+fi
